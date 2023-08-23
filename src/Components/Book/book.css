@@ -1,0 +1,33 @@
+.side-line::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #dfdfdf;
+  }
+  .btnRead, .btnRead:hover, .btnRead:focus{
+    background-color: #004395;
+    color: white;
+  }
+  .btnRead:hover, .btnRead:focus {
+    background-color: #004395;
+  }
+  .btnRead {
+    margin-right: 6px;
+  }
+  .btnDelete, .btnDelete:hover, .btnDelete:focus{
+    
+    background-color: revert;
+    color: #211c08;
+  }
+  .btnDelete:hover,.btnDelete:focus{
+    background-color: revert;
+  }
+  .alert-secondary {
+    outline: none !important;
+    border: none;
+  }
+  

@@ -1,0 +1,38 @@
+/* header */
+.navbar {
+    /* background-color: #9e9e9e2c !important; */
+    background-color: #f8f8f8 !important;
+    box-shadow: 1px -10px 16px 0px;
+}
+.navbar img {
+    user-select: none;
+    width: 60px;
+}
+.navbar-brand:hover {
+    color: #282120;
+}
+/* add form */
+.form-control {
+    outline: none !important;
+    border: none;
+    max-width: 30rem;
+}
+label {
+font-size: 1.1rem !important;
+}
+.form-group {
+    
+    margin-bottom: 1.1rem;
+}
+.btnCancel, .btnCancel:hover, .btnCancel:focus{
+    
+    background-color: #e2e3e5;
+    color: #211c08;
+  }
+  .btn-primary {
+    background-color: #004395;
+  }
+
+.footer, .api_link {
+    font-size: .4rem !important;
+}
